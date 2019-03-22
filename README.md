@@ -1,1 +1,3 @@
-# SCT_ciliates
+#### 1. StopReasign_R2G_v2.py
+##### This script can help to assess stop codon reassignments. Fasta files, list of amino acid (aalist.txt) and the scripts are required to be stored in the same folder. Database can be user defined with necessary changes in the script. This script is original written to be used after PhyloToL analysis based on OrthoMCL gene family system. It will align each sequences in the input fasta file against the database, for every column in the alignment that contains inframe stop codon, a reassignment signal will be considered if the column has a dominant sense codon (present >50% of the alignment).
+##### Example usage: $ python StopReasign_R2G_v2.py
